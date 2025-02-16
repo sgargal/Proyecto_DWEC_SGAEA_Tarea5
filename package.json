@@ -4,7 +4,7 @@
   "main": "./src/scripts/tarea4_5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node_modules/.bin/webpack --mode production",
+    "build": "npx webpack --mode production",
     "start": "webpack serve --open"
   },
   "keywords": [],
